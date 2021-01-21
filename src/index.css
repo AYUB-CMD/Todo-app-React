@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #7ae7f5;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.center{
+    min-width: 400px;
+    min-height: 500px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction:column;
+    background-color:#fff;
+    border-radius: 15%;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px grey;
+}
+
+h1{
+   
+}
+input{
+    font-size: 22px;
+
+background-color:#fff;
+border-style: none;
+outline: none;
+border-bottom: 2px solid grey;
+
+}
+
+.new-btn:hover{
+    color: green;
+}
+
+.deleteicon{
+    margin: 0 20px;
+    
+}
+.deleteicon:hover{
+    color: red;
+}
+.todo-style{
+display: flex;
+align-items: center;
+flex-direction: row;
+}
